@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>One Little Question 💌</title>
+  <meta name="description" content="A little question for someone special." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span>
+  </div>
+
+  <main class="app">
+    <section class="screen active" id="intro">
+      <div class="eyebrow">A tiny message for you</div>
+      <div class="heart">♡</div>
+      <h1>Hey,<br><em>there's something</em><br>I want to ask you.</h1>
+      <p class="lead">Nothing complicated. Just one little question.</p>
+      <button class="primary" data-next="note">Open it <span>→</span></button>
+    </section>
+
+    <section class="screen" id="note">
+      <div class="letter">
+        <div class="letter-top">A note, just for you</div>
+        <p>I've been thinking about this for a while, and I figured the best thing to do is just ask.</p>
+        <p>I'd really like to spend some time with you — good food, good conversation, and hopefully a lot of laughing.</p>
+        <p>So here goes...</p>
+        <button class="primary" data-next="question">Okay, ask me <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="screen" id="question">
+      <div class="eyebrow">The important part</div>
+      <div class="big-heart">♥</div>
+      <h2>Will you go out<br><em>with me?</em></h2>
+      <p class="lead">A real date. Just you and me.</p>
+      <div class="buttons">
+        <button class="yes" id="yes">YES! 💕</button>
+        <button class="no" id="no">No 🙈</button>
+      </div>
+      <p class="tiny" id="tease">Choose carefully... 😌</p>
+    </section>
+
+    <section class="screen" id="success">
+      <div class="success-icon">🎉</div>
+      <div class="eyebrow">IT'S OFFICIAL</div>
+      <h2>It's a date!<br><em>💕</em></h2>
+      <p class="lead">Okay, now you've made me very happy.</p>
+      <div class="date-card">
+        <span>THE PLAN</span>
+        <strong>Good food · Great conversation · Zero awkwardness*</strong>
+        <small>*Okay, maybe a little.</small>
+      </div>
+      <p class="closing">I'll see you soon. ❤️</p>
+      <button class="ghost" id="again">Replay ↺</button>
+    </section>
+  </main>
+
+  <button class="sound" id="sound" aria-label="Toggle background sound">♫</button>
+  <div class="toast" id="toast">Music is on</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

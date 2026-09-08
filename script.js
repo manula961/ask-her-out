@@ -26,10 +26,17 @@ function dodge() {
 no.addEventListener("mouseenter", dodge);
 no.addEventListener("touchstart", e => { e.preventDefault(); dodge(); });
 
-document.getElementById("yes").addEventListener("click", () => {
+document.getElementById("yes").addEventListener("click", async () => {
   show("success");
   confetti();
   playTone();
+
+  // Notify the proposer by email without exposing the email API key in the browser.
+  try {
+    await fetch("/api/yes", { method: "POST" });
+  } catch (error) {
+    console.error("Could not send YES notification", error);
+  }
 });
 
 document.getElementById("again").addEventListener("click", () => {

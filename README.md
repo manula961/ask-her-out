@@ -1,4 +1,19 @@
-# Ask Her Out — One Little Question
+<h1 align="center">💌 Ask Her Out — One Little Question</h1>
+
+<p align="center"><strong>An animated letter, a little question, and a confetti finale.</strong></p>
+
+<p align="center">
+  <img alt="HTML" src="https://img.shields.io/static/v1?label=&amp;message=HTML&amp;color=BE185D&amp;style=for-the-badge">
+  <img alt="CSS" src="https://img.shields.io/static/v1?label=&amp;message=CSS&amp;color=7E22CE&amp;style=for-the-badge">
+  <img alt="JavaScript" src="https://img.shields.io/static/v1?label=&amp;message=JavaScript&amp;color=B91C1C&amp;style=for-the-badge">
+</p>
+
+<p align="center">
+  <a href="#what-the-site-does">What the site does</a> · <a href="#run-locally">Run locally</a> · <a href="#deploy">Deploy</a>
+</p>
+
+---
+
 
 A responsive mini-site that unfolds through a series of screens, from a greeting to a letter reveal and a final question. The front end uses plain HTML, CSS, and JavaScript. A Vercel API handler can send an email notification when the visitor selects **Yes**.
 

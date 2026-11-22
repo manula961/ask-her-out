@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 320" role="img" aria-labelledby="title desc">
+<title id="title">Ask Her Out</title><desc id="desc">An interactive letter with a confetti finale</desc>
+<defs><linearGradient id="base"><stop stop-color="#440d33"/><stop offset="1" stop-color="#851948"/></linearGradient><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#fff" opacity=".13"/></pattern></defs>
+<rect width="1120" height="320" rx="28" fill="url(#base)"/><rect x="613" y="18" width="489" height="284" rx="22" fill="url(#grid)"/>
+<path d="M58 92h58" stroke="#ffc2db" stroke-width="6" stroke-linecap="round"/>
+<text x="54" y="170" fill="#fff" font-family="system-ui, sans-serif" font-size="64" font-weight="750">Ask Her Out</text>
+<text x="57" y="218" fill="#ffc2db" font-family="system-ui, sans-serif" font-size="22" font-weight="500">An interactive letter with a confetti finale</text>
+<g transform="translate(673 44)"><g transform="rotate(9 207 125)"><rect x="62" y="92" width="285" height="130" rx="18" fill="#f68bb4"/><rect x="103" y="29" width="203" height="136" rx="12" fill="#fff1e6"/><path d="M130 62h146m-146 22h104m-104 22h125" stroke="#d27b99" stroke-width="5" stroke-linecap="round"/><path d="M62 108l142 79 143-79v96a18 18 0 0 1-18 18H80a18 18 0 0 1-18-18z" fill="#ffabc9"/><path d="M204 180c-35-24-13-46 0-29 13-17 35 5 0 29z" fill="#a22763"/></g><path d="m45 62 10-13m292 4 10-13m31 56 9 12M42 194l-13 9" stroke="#ffd186" stroke-width="7" stroke-linecap="round"/></g>
+</svg>

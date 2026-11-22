@@ -3,9 +3,7 @@
 <p align="center"><strong>An animated letter, a little question, and a confetti finale.</strong></p>
 
 <p align="center">
-  <img alt="HTML" src="https://img.shields.io/static/v1?label=&amp;message=HTML&amp;color=BE185D&amp;style=for-the-badge">
-  <img alt="CSS" src="https://img.shields.io/static/v1?label=&amp;message=CSS&amp;color=7E22CE&amp;style=for-the-badge">
-  <img alt="JavaScript" src="https://img.shields.io/static/v1?label=&amp;message=JavaScript&amp;color=B91C1C&amp;style=for-the-badge">
+  <img src="docs/readme-cover.svg" alt="Ask Her Out project illustration" width="1120">
 </p>
 
 <p align="center">
